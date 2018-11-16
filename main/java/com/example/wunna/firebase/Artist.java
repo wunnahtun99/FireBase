@@ -11,9 +11,9 @@ public class Artist {
     }
 
     public Artist(String artistTd, String artistName, String artistGenere) {
-        ArtistTd = artistTd;
-        ArtistName = artistName;
-        ArtistGenere = artistGenere;
+        this.ArtistTd = artistTd;
+        this.ArtistName = artistName;
+        this.ArtistGenere = artistGenere;
     }
 
 

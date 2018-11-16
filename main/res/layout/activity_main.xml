@@ -36,4 +36,13 @@
         android:layout_marginTop="111dp"
         android:onClick="Add"
         android:text="Add Artist" />
+
+    <ListView
+        android:id="@+id/list_view_artists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="198dp" />
 </android.widget.RelativeLayout>
